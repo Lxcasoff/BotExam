@@ -17,10 +17,22 @@ Ce script Python utilise Selenium pour automatiser la connexion et la navigation
 
 ## Installation
 
-1. Installez Python 3 depuis https://www.python.org/downloads/
-2. Installez Selenium en exécutant `pip install selenium` dans votre terminal ou invite de commande.
-3. Téléchargez ChromeDriver depuis https://sites.google.com/a/chromium.org/chromedriver/downloads et placez-le dans un répertoire accessible dans votre variable d'environnement `PATH`.
 
+```shell
+sudo su
+sudo apt update
+sudo apt install snap
+snap install chromium
+sudo apt install python3
+sudo apt install git
+snap install code --classic
+git clone https://github.com/Lxcasoff/BotExam.git
+cd BotExam/
+sudo apt install pip
+pip install selenium
+sudo apt-get install chromium-chromedriver
+echo 'export PATH=$PATH:/usr/lib/chromium-browser/' >> ~/.bashrc
+```
 ## Configuration
 
 Remplacez les variables `USERNAME` et `PASSWORD` par votre nom d'utilisateur et mot de passe pour le site de quiz en ligne.
