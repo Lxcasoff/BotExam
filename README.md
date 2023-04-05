@@ -21,6 +21,7 @@ Ce script Python utilise Selenium pour automatiser la connexion et la navigation
 ```shell
 sudo su
 sudo apt update
+sudo apt install fish
 sudo apt install snap
 snap install chromium
 sudo apt install python3
@@ -40,3 +41,4 @@ Remplacez les variables `USERNAME` et `PASSWORD` par votre nom d'utilisateur et 
 ```python
 USERNAME = ''
 PASSWORD = ''
+```
